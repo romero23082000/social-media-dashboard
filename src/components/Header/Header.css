@@ -1,0 +1,29 @@
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container-title {
+  border-bottom: none;
+}
+.title {
+  color: var(--White-Text);
+}
+.subtitle {
+  color: var(--Desaturated-Blue-Text);
+  font-weight: 700;
+}
+.mode {
+  color: var(--White-Text);
+}
+
+@media (max-width: 375px) {
+  .container-title {
+    border-bottom: 1px solid var(--Desaturated-Blue-Text);
+    padding-bottom: 10px;
+  }
+  .title {
+    font-size: 25px;
+  }
+}

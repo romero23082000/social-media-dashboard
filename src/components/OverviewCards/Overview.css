@@ -1,0 +1,35 @@
+.card {
+  width: 210px;
+  background-color: var(--Dark-Desaturated-Blue-Card-BG);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.seccion1 {
+  display: flex;
+  justify-content: space-between;
+}
+.seccion2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.seccion1 p {
+  color: var(--Desaturated-Blue-Text);
+  font-weight: bold;
+}
+.seccion2 h1 {
+  color: var(--White-Text);
+}
+.seccion2 p {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 375px) {
+  .card {
+    width: 300px;
+  }
+}
